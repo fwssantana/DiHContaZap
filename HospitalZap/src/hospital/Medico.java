@@ -9,12 +9,13 @@ public class Medico extends Funcionario {
 	}
 
 	@Override
-	public void setDocumentoConselho(String documento) {
+	public void atribuirDocumentoConselho(String documento) {
 		this.crm = documento;
 	}
 	
 	@Override
-	public String getDocumentoConselho() {
+	public String obterDocumentoConselho() {
 		return this.crm;
 	}
+	
 }

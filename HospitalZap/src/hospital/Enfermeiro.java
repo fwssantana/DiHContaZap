@@ -17,12 +17,12 @@ public class Enfermeiro extends Funcionario {
 	}
 
 	@Override
-	public String getDocumentoConselho() {
+	public String obterDocumentoConselho() {
 		return this.cref;
 	}
 
 	@Override
-	public void setDocumentoConselho(String documento) {
+	public void atribuirDocumentoConselho(String documento) {
 		this.cref = documento;
 	}
 	

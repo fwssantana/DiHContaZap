@@ -28,13 +28,13 @@ public abstract class Funcionario {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getEspecialidade() {
+	public final String getEspecialidade() {
 		return especialidade;
 	}
 	public void setEspecialidade(String especialidade) {
 		this.especialidade = especialidade;
 	}
 	
-	public abstract String getDocumentoConselho();
-	public abstract void setDocumentoConselho(String documento);
+	public abstract String obterDocumentoConselho();
+	public abstract void atribuirDocumentoConselho(String documento);
 }
